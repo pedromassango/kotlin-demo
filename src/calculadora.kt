@@ -1,12 +1,16 @@
 
 fun main(args: Array<String>){
 
-    val X = 11
-    val Y = 2
+    print("Digite o primeiro numero: ")
+    val X =  readLine()!!.toInt()
+
+    // NullPointerException
+
+    print("Digite o segundo numero: ")
+    val Y =  readLine()!!.toInt()
 
     val resultado = multiplica(X, Y)
-
-    println("O resultado da soma é = $resultado")
+    println("O resultado da operacão é = $resultado")
 }
 
 /*
